@@ -14,4 +14,8 @@ class Costumer {
     public function setName(string $name){
         $this->name = $name;
     }
+
+    public function sapa(string $name){
+        echo "Halo $name, nama saya $this->name" . PHP_EOL;
+    }
 }
